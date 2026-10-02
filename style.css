@@ -613,3 +613,8 @@ footer > strong { display: block; margin-bottom: 8px; color: #fff; font-size: 17
 .inquiry-button:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
 .inquiry-note, #inquiryStatus { text-align: center; color: var(--muted); font-size: 13px; }
 @media (max-width: 380px) { .inquiry-actions { grid-template-columns: 1fr; } }
+
+.apply .direct { gap: 14px; }
+.apply .direct .contact-btn { min-height: 64px; padding: 12px; border-radius: 8px; font-size: 20px; font-weight: 900; }
+@media (max-width: 620px) { .apply .direct { grid-template-columns: 1fr 1fr; } }
+@media (max-width: 380px) { .apply .direct { grid-template-columns: 1fr; } }
