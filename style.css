@@ -605,3 +605,11 @@ footer > strong { display: block; margin-bottom: 8px; color: #fff; font-size: 17
   .reveal { opacity: 1; transform: none; transition: none; }
   .submit { transition: none; }
 }
+
+.inquiry-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.inquiry-button { display: flex; align-items: center; justify-content: center; min-height: 64px; padding: 12px; border-radius: 8px; color: #fff; font-size: 20px; font-weight: 900; }
+.inquiry-button.consultation { background: var(--navy); }
+.inquiry-button.recruitment { background: var(--rose); }
+.inquiry-button:focus-visible { outline: 3px solid var(--blue); outline-offset: 4px; }
+.inquiry-note, #inquiryStatus { text-align: center; color: var(--muted); font-size: 13px; }
+@media (max-width: 380px) { .inquiry-actions { grid-template-columns: 1fr; } }
